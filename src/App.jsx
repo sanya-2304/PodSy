@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useEffect, useState } from "react";
 import { AiFillAudio } from "react-icons/ai";
 import { FaRegStar, FaSearch, FaTimes } from "react-icons/fa";
