@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # 🎧 PodSy – Spotify Podcast Explorer
-
+Access here: https://podsy.netlify.app/
 Welcome to **PodSy**, a sleek React app that lets users explore and search podcasts using the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). Whether you're a podcast lover or a developer learning APIs, this app is a quick and interactive way to browse trending shows on Spotify.
 
 ![PodSy Screenshot](public/image.png)
