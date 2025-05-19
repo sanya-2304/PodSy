@@ -1,16 +1,61 @@
-<<<<<<< HEAD
-# PodSy
-=======
-# React + Vite
+# 🎧 PodSy – Spotify Podcast Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **PodSy**, a sleek React app that lets users explore and search podcasts using the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). Whether you're a podcast lover or a developer learning APIs, this app is a quick and interactive way to browse trending shows on Spotify.
 
-Currently, two official plugins are available:
+![PodSy Screenshot](public/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> be2999b (project complete)
+- 🔍 **Search Podcasts** by title or keyword
+- 🎙️ **View Publisher & Description** of each podcast
+- 🖼️ **Responsive UI** built with TailwindCSS
+- 🔗 **Play on Spotify** – direct links to each show's Spotify page
+- ⚡ **Fast and Lightweight** – powered by Vite + React
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+## 🔐 Spotify API Setup
+
+To use the Spotify Web API, you’ll need a **Client ID** and **Client Secret** from [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
+
+### 1. Create a `.env` file in the root directory:
+```env
+VITE_CLIENT_ID=your_spotify_client_id
+VITE_CLIENT_SECRET=your_spotify_client_secret
+⚠️ Never commit your secret keys to version control.
+
+## 💻 Installation
+# Clone the repository
+git clone https://github.com/sanya-2304/PodSy.git
+cd PodSy
+# Install dependencies
+npm install
+# Start the development server
+npm run dev
+Then open your browser at: http://localhost:5173
+
+##✨ Screenshots
+<p align="center"> <img src="public/image.png" alt="screenshot" width="600"/> </p>
+
+
+##⭐ Support
+If you like this project, give it a ⭐ on GitHub!
+
+##📄 License
+This project is open source and available under the MIT License.
+
+##👩‍💻 Author
+Made with 💙 by @sanya-2304
+
